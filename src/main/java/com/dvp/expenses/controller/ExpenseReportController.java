@@ -21,7 +21,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.dvp.expenses.model.ExpenseLine;
 import com.dvp.expenses.model.ExpenseReport;
-import com.jesper.music.model.Album;
 
 @Controller
 public class ExpenseReportController {

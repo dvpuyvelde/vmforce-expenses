@@ -18,10 +18,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.dvp.expenses.model.ExpenseReport;
-import com.jesper.music.model.Album;
-import com.jesper.music.model.Artist;
-import com.jesper.music.model.Genre;
-import com.jesper.music.service.MusicService;
 
 /**
  * Handles requests for the application home page.

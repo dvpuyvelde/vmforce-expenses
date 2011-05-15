@@ -8,7 +8,6 @@
 
 
 
-
 <jsp:attribute name="breadcrumb"><a href=".">Home</a></jsp:attribute>
 <jsp:body>
 
@@ -41,7 +40,7 @@ $(document).ready(function() {
 	<tr>
 		<td>Date</td>
 		<td>
-			<input type="text" value="<fmt:formatDate value="${expensereport.reportDate }" pattern="dd MMM yyyy"/>" id="reportDatepicker"/>
+			<input type="text" value="<fmt:formatDate value="${ expensereport.reportDate }" pattern="dd MMM yyyy"/>" id="reportDatepicker"/>
 			<form:hidden id="reportDateHidden" path="reportDate"/> <!-- saved in yyyy-MM-dd format -->
 		</td>
 	</tr>
